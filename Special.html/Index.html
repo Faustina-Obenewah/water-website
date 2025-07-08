@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/ali.min.css" intergrity="sha512-kfkfwYDsLKISGHGJHFHGJ">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2O mineral ice | Home</title>
+</head>
+<body>
+   
+    <div class="top">
+        <div class="nav">
+                <a href="#benefits"><i class="fa-solid fa-heart"></i> Benefits</a>
+                <a href="#tracker"><i class="fa-solid fa-glass-water"></i> Tracker</a>
+                <a href="#feedback">Feedback</a>
+                <a href="#share">Share</a>
+                <a href="#" id="logout">Logout</a>
+                <a href="#" id="toggleTheme">🌙 Theme</a>
+                <a href="login.html">Login</a>
+             <div class="search-bar">
+  <input type="text" id="searchInput" placeholder="Search...">
+</div>
+</div>
+         </div>
+ 
+     <section class="hero">
+        <h2>Stay Hydrated, Live Better</h2>
+        <p>Keep track of your daily water intake and learn why hydration is important!</p>
+        <img src="main1.jpg"  alt="fresh" height="350px" width="100%">
+        <button>START TRACKING</button>
+     </section>
+
+     <section id="benefit">
+        <h3>BENEFIT OF DRINKING WATER.</h3>
+        <ul id="benefitsList">
+            <li>Boost Energy</li>
+            <li>Improve skin health</li>
+            <li>Help Digestion</li>
+            <li>Flushes out Toxins</li>
+        </ul>
+    </section>
+    
+    <section id="tracker">
+  <h3>🧊 Daily Water Tracker</h3>
+  <p>Click each glass when you drink water.</p>
+  <div class="glasses">
+    <div class="glass" data-id="1"></div>
+    <div class="glass" data-id="2"></div>
+    <div class="glass" data-id="3"></div>
+    <div class="glass" data-id="4"></div>
+    <div class="glass" data-id="5"></div>
+    <div class="glass" data-id="6"></div>
+    <div class="glass" data-id="7"></div>
+    <div class="glass" data-id="8"></div>
+    </div>
+  <button id="reset">Reset</button>
+</section>
+
+     <div class="img1">
+            <img src="main2.jpg" alt="" height="400px" width="50%">
+     </div>
+     
+     <section id="share">
+          <h3>💬 Share This Site</h3>
+             <div class="social-buttons">
+              <a id="facebook" target="_blank">Facebook</a>
+               <a id="twitter" target="_blank">Twitter</a>
+                    <a id="whatsapp" target="_blank">WhatsApp</a>
+                   <a id="linkedin" target="_blank">LinkedIn</a>
+         </div>
+        </section>
+        <button id="logout">Logout</button>
+
+        <section id="feedback">
+  <h3>📝 We'd Love Your Feedback</h3>
+  <form id="feedbackForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" placeholder="Your Feedback" required></textarea>
+    <button type="submit">Send Feedback</button>
+    <p id="feedbackMessage" style="color: green;"></p>
+  </form>
+</section>
+<div class="image">
+    <img src="main3.jpg", alt="" height="400px" width="100%">
+</div>
+
+        <script src="script.js"></script>
+        <footer>
+    <p>&copy; 2025 Stay Hydrated. All rights reserved.</p>
+  </footer>
+</body>
+</html>
